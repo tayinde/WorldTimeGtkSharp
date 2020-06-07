@@ -17,11 +17,13 @@
 }
 .Input
 {
+    caret-color: black;
     padding-left: 15px;
     border-radius: 0px;
     background: transparent;
-    border-color: transparent;
+    border: none;
     border-bottom: 1px solid black;
+    box-shadow: none;
     font-family: "Noto Sans";
     font-weight: 100;
     color: black;

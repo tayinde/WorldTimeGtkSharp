@@ -101,7 +101,7 @@
                 <property name="halign">center</property>
                 <property name="valign">center</property>
                 <property name="has_frame">False</property>
-                <property name="shadow_type">none</property>
+                <property name="shadow_type">etched-in</property>
                 <style>
                   <class name="Input"/>
                 </style>
