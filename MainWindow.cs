@@ -45,7 +45,7 @@ namespace gtkAppTest
                 string location = Request.city["data"]["request"][0]["query"];
                 string time = Request.city["data"]["time_zone"][0]["localtime"];
                 string offset = Request.city["data"]["time_zone"][0]["utcOffset"];
-                _label1.Text = $"{char.ToUpper(location[0])}{location.Substring(1, location.Length - 1)}\n\nDate: {time}\nUTC Offset: {offset}";
+                _label1.Text = $"{char.ToUpper(location[0])}{location.Substring(1, location.Length - 1)}\n \nDate: {time}\nUTC Offset: {offset}";
             }
             Console.WriteLine($"{Application.ApplicationId}: Request attempt executed.");
         }
