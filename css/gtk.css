@@ -25,6 +25,7 @@
     border-radius: 20px;
     border: 1px solid transparent;
     box-shadow: none;
+    text-shadow: none;
     font-family: "Arial";
     color: black;
     transition: background 0.3s, border 0.3s;

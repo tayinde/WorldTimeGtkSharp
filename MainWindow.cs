@@ -20,6 +20,7 @@ namespace gtkAppTest
             CssProvider css = new CssProvider();
             Gtk.StyleContext.AddProviderForScreen(Gdk.Screen.Default, css, Gtk.StyleProviderPriority.Application);
             css.LoadFromPath ("./css/gtk.css");
+            Gtk.IconTheme.Default.AppendSearchPath("./icons");
             DeleteEvent += Window_DeleteEvent;
             _button1.Clicked += RenderCityData;
             city.Activated += RenderCityData;
