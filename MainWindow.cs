@@ -34,11 +34,12 @@ namespace gtkAppTest
         private async void RenderCityData(object sender, EventArgs a)
         {
             var place = city.Text.ToLower();
-            city.Text = "";
+            city.Text = " ";
+            _label1.Text = "Searching...";
             await Request.Send(place);
             if (Request.city["data"]["error"] != null)
             {
-                _label1.Text = "Location was not found.";
+                _label1.Text = $"The location \"{place}\" was not found.";
             } else
             {
                 string location = Request.city["data"]["request"][0]["query"];

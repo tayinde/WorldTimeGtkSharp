@@ -1,6 +1,7 @@
 .GtkButton
 {
-    font-family: "Noto Sans";
+    font-family: "Arial";
+    font-size: 15px;
     border-radius: 3px;
     border: none;
     background: blue;
@@ -20,17 +21,28 @@
     caret-color: black;
     padding-left: 15px;
     border-radius: 0px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid black;
+    background: rgb(233, 233, 233);
+    border-radius: 20px;
+    border: 1px solid transparent;
     box-shadow: none;
-    font-family: "Noto Sans";
-    font-weight: 100;
+    font-family: "Arial";
     color: black;
+    transition: background 0.3s, border 0.3s;
+}
+.Input:focus
+{
+    background: rgb(241, 241, 241);
+    border: 1px solid lightblue;
 }
 .GtkLabel
 {
     font-family: "Noto Sans";
-    font-size: 15px;
+    font-size: 18px;
     color: black;
+}
+.nextToInput
+{
+    color: black;
+    font-family: "Arial";
+    font-size: 13px;
 }

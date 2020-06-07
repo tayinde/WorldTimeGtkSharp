@@ -40,10 +40,8 @@
                 <property name="halign">center</property>
                 <property name="valign">center</property>
                 <property name="label" translatable="yes">Enter a city into the input and then press "Get Date"</property>
+                <property name="use_markup">True</property>
                 <property name="justify">center</property>
-                <attributes>
-                  <attribute name="font-desc" value="Sans Bold 15"/>
-                </attributes>
                 <style>
                   <class name="GtkLabel"/>
                 </style>
@@ -74,16 +72,16 @@
             <property name="halign">center</property>
             <property name="valign">center</property>
             <child>
-              <object class="GtkLabel">
+              <object class="GtkLabel" id="next_To_Input">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="halign">center</property>
                 <property name="valign">center</property>
                 <property name="label" translatable="yes">City</property>
-                <attributes>
-                  <attribute name="font-desc" value="Quicksand 11"/>
-                  <attribute name="foreground" value="#000000000000"/>
-                </attributes>
+                <property name="use_markup">True</property>
+                <style>
+                  <class name="nextToInput"/>
+                </style>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -100,8 +98,10 @@
                 <property name="can_focus">True</property>
                 <property name="halign">center</property>
                 <property name="valign">center</property>
+                <property name="margin_left">14</property>
                 <property name="has_frame">False</property>
                 <property name="shadow_type">etched-in</property>
+                <property name="placeholder_text" translatable="yes">Type city here</property>
                 <style>
                   <class name="Input"/>
                 </style>
