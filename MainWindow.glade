@@ -100,8 +100,8 @@
                 <property name="can_focus">True</property>
                 <property name="halign">center</property>
                 <property name="valign">center</property>
+                <property name="has_frame">False</property>
                 <property name="shadow_type">none</property>
-                <property name="secondary_icon_tooltip_markup" translatable="yes">&lt;b&gt;Insert your city here&lt;/b&gt;</property>
                 <style>
                   <class name="Input"/>
                 </style>

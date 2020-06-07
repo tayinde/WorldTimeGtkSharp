@@ -1,5 +1,6 @@
 .GtkButton
 {
+    font-family: "Noto Sans";
     border-radius: 3px;
     border: none;
     background: blue;
@@ -21,13 +22,13 @@
     background: transparent;
     border: none;
     border-bottom: 1px solid black;
-    font-family: "sans-serif";
+    font-family: "Noto Sans";
     font-weight: 100;
     color: black;
 }
 .GtkLabel
 {
-    font-family: "Calibri";
+    font-family: "Noto Sans";
     font-size: 15px;
     color: black;
 }
