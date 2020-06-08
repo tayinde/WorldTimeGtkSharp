@@ -7,9 +7,7 @@ namespace gtkAppTest
 {
     class MainWindow : Window
     {
-        [UI] private Label _label1 = new Label () {
-            UseMarkup = true
-        };
+        [UI] private Label _label1 = null;
         [UI] private Button _button1 = null;
         [UI] private Entry city = null;
 

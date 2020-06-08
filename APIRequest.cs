@@ -27,9 +27,9 @@ namespace APIRequest
             StringContent data = new StringContent(json, Encoding.UTF8, "application/json");
             HttpClient Client = new HttpClient();
             var response = await Client.PostAsync(url, data);
-            var timeData = response.Content.ReadAsStringAsync().Result;
-            JObject time = JObject.Parse(timeData);
-            Request.city = time;
+            var covid = response.Content.ReadAsStringAsync().Result;
+            JObject covidData = JObject.Parse(covid);
+            Request.city = covidData;
         }
     }
 }
