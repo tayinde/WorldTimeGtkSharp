@@ -5,10 +5,8 @@ namespace gtkAppTest
 {
     class Program
     {
-        [STAThread]
         public static void Main(string[] args)
         {
-
             Application.Init();
             var app = new Application("org.gtkAppTest.gtkAppTest", GLib.ApplicationFlags.None);
             app.Register(GLib.Cancellable.Current);
