@@ -17,7 +17,7 @@ namespace APIRequest
     }
     public static class Request
     {
-        static public dynamic city;
+        static public JObject location;
         static public async Task Send(string city)
         {
             Key key = new Key();
@@ -28,10 +28,10 @@ namespace APIRequest
             string json = JsonConvert.SerializeObject(info);
             StringContent data = new StringContent(json, Encoding.UTF8, "application/json");
             HttpClient Client = new HttpClient();
-            var response = await Client.PostAsync(url, data);
-            var cityJSON = response.Content.ReadAsStringAsync().Result;
+            HttpResponseMessage response = await Client.PostAsync(url, data);
+            string cityJSON = response.Content.ReadAsStringAsync().Result;
             JObject cityData = JObject.Parse(cityJSON);
-            Request.city = cityData;
+            Request.location = cityData;
         }
     }
 }

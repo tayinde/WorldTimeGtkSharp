@@ -36,15 +36,15 @@ namespace gtkAppTest
             city.Text = "";
             _label1.Text = "Searching...";
             await Request.Send(place);
-            if (Request.city["data"]["error"] != null)
+            if (Request.location["data"]["error"] != null)
             {
                 _label1.Text = $"The location \"{place}\" was not found.";
             } else
             {
-                string location = Request.city["data"]["request"][0]["query"];
-                string time = Request.city["data"]["time_zone"][0]["localtime"];
-                string offset = Request.city["data"]["time_zone"][0]["utcOffset"];
-                string region = Request.city["data"]["time_zone"][0]["zone"];
+                string location = (string) Request.location["data"]["request"][0]["query"];
+                string time = (string) Request.location["data"]["time_zone"][0]["localtime"];
+                string offset = (string) Request.location["data"]["time_zone"][0]["utcOffset"];
+                string region = (string) Request.location["data"]["time_zone"][0]["zone"];
                 int cutOff = region.IndexOf("/");
                 region = region.Substring(0, cutOff);
                 _label1.Text = $"{char.ToUpper(location[0])}{location.Substring(1, location.Length - 1)}\n \nDate: {time}\nUTC Offset: {offset}\nContinent: {region}";
