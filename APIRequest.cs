@@ -7,14 +7,6 @@ using Newtonsoft.Json.Linq;
 
 namespace APIRequest
 {
-    class DataToSend<type>
-    {
-        public type data;
-        public DataToSend(type data)
-        {
-            this.data = data;
-        }
-    }
     public static class Request
     {
         static public JObject location;
