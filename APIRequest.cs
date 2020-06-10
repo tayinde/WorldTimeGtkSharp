@@ -20,7 +20,9 @@ namespace APIRequest
         static public dynamic city;
         static public async Task Send(string city)
         {
-            string apiKey = "4a4a79f8b83a4125b46222602200606";
+            Key key = new Key();
+            key.setValue("public key"); // "public key" can be replaced with a custom key
+            string apiKey = key.value;
             string url = $"https://api.worldweatheronline.com/premium/v1/tz.ashx?q={city}&key={apiKey}&format=json";
             DataToSend<string> info = new DataToSend<string>("No data needed currently.");
             string json = JsonConvert.SerializeObject(info);
