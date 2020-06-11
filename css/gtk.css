@@ -4,6 +4,7 @@
     font-size: 15px;
     border-radius: 3px;
     border: none;
+    box-shadow: none;
     background: blue;
     color: white;
     transition: background 0.3s;
