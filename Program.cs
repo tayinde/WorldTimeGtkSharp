@@ -16,6 +16,8 @@ namespace gtkAppTest
             app.AddWindow(win);
 
             win.Show();
+            Gdk.Pixbuf img = new Gdk.Pixbuf("./img/globe.png");
+            win.Icon = img;
             Application.Run();
         }
     }
