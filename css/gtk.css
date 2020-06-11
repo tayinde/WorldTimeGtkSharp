@@ -14,7 +14,8 @@
 }
 .GtkWindow
 {
-    background-color: white;
+    background-image: url("../earth.jpg");
+    background-size: 100% 100%;
 }
 .Input
 {
@@ -38,12 +39,15 @@
 .GtkLabel
 {
     font-family: "Noto Sans";
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 50px;
     font-size: 18px;
-    color: black;
+    color: white;
 }
 .nextToInput
 {
-    color: black;
+    color: white;
     font-family: "Arial";
     font-size: 13px;
 }
