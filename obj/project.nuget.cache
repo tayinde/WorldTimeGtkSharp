@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vt8OGlfMrJMIfictio4LnZmji3BVuvAKi1doxdOo+GJXy0QR6M7WjZ/zQJCOslecFLIeGPsatq423A11BdCWsw==",
+  "dgSpecHash": "ACsPp9NlALcptXWMZuEk7+F3HASZjPg5OZ105HrAT8O9zJAfgs4HKxnnlgDSn1saHLgFIoMBeipRcxLLrnIeSg==",
   "success": true,
   "projectFilePath": "/home/tobi/Codes/C#/gtkAppTest/gtkAppTest.csproj",
   "expectedPackageFiles": [
@@ -13,8 +13,10 @@
     "/home/tobi/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/tobi/.nuget/packages/pangosharp/3.22.25.74/pangosharp.3.22.25.74.nupkg.sha512",
     "/home/tobi/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "/home/tobi/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "/home/tobi/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.0.3/microsoft.netcore.app.host.linux-x64.3.0.3.nupkg.sha512"
+    "/home/tobi/.nuget/packages/microsoft.netcore.app.runtime.win-x64/3.0.3/microsoft.netcore.app.runtime.win-x64.3.0.3.nupkg.sha512",
+    "/home/tobi/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/3.0.3/microsoft.aspnetcore.app.runtime.win-x64.3.0.3.nupkg.sha512",
+    "/home/tobi/.nuget/packages/microsoft.netcore.app.host.win-x64/3.0.3/microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "/home/tobi/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }
