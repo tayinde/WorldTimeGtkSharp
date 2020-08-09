@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/tobi/Codes/C#/gtkAppTest/gtkAppTest.csproj": {}
+    "/home/ta334/Codes/C#/WorldTimeGtkSharp/gtkAppTest.csproj": {}
   },
   "projects": {
-    "/home/tobi/Codes/C#/gtkAppTest/gtkAppTest.csproj": {
+    "/home/ta334/Codes/C#/WorldTimeGtkSharp/gtkAppTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tobi/Codes/C#/gtkAppTest/gtkAppTest.csproj",
+        "projectUniqueName": "/home/ta334/Codes/C#/WorldTimeGtkSharp/gtkAppTest.csproj",
         "projectName": "gtkAppTest",
-        "projectPath": "/home/tobi/Codes/C#/gtkAppTest/gtkAppTest.csproj",
-        "packagesPath": "/home/tobi/.nuget/packages/",
-        "outputPath": "/home/tobi/Codes/C#/gtkAppTest/obj/",
+        "projectPath": "/home/ta334/Codes/C#/WorldTimeGtkSharp/gtkAppTest.csproj",
+        "packagesPath": "/home/ta334/.nuget/packages/",
+        "outputPath": "/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/tobi/.nuget/NuGet/NuGet.Config"
+          "/home/ta334/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/bin/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

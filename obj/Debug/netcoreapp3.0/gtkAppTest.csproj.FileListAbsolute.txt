@@ -20,3 +20,9 @@
 /home/tobi/Codes/C#/gtkAppTest/obj/Debug/netcoreapp3.0/gtkAppTest.pdb
 /home/tobi/Codes/C#/gtkAppTest/obj/Debug/netcoreapp3.0/gtkAppTest.genruntimeconfig.cache
 /home/tobi/Codes/C#/gtkAppTest/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/Debug/netcoreapp3.0/gtkAppTest.csprojAssemblyReference.cache
+/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/Debug/netcoreapp3.0/gtkAppTest.AssemblyInfoInputs.cache
+/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/Debug/netcoreapp3.0/gtkAppTest.AssemblyInfo.cs
+/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/Debug/netcoreapp3.0/gtkAppTest.csproj.CoreCompileInputs.cache
+/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/Debug/netcoreapp3.0/gtkAppTest.dll
+/home/ta334/Codes/C#/WorldTimeGtkSharp/obj/Debug/netcoreapp3.0/gtkAppTest.pdb
