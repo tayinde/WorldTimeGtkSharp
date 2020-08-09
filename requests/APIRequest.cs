@@ -13,7 +13,7 @@ namespace APIRequest
         static public async Task Send(string city)
         {
             Key key = new Key();
-            key.setValue("public key"); // "public key" can be replaced with a custom key
+            key.setValue("your key"); // "public key" can be replaced with a custom key
             string apiKey = key.value;
             string url = $"https://api.worldweatheronline.com/premium/v1/tz.ashx?q={city}&key={apiKey}&format=json";
             DataToSend<string> info = new DataToSend<string>("No data needed currently.");
