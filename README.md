@@ -6,4 +6,4 @@ To run this program you will need the [.NET Core CLI](https://dotnet.microsoft.c
 ***
 ![Example of the app](img/example.png)
 ## Your own API Key?
-To use your own API key from [World Weather Online](https://www.worldweatheronline.com/), you can use it by locating the [APIRequest.cs](https://github.com/tayinde/WorldTimeGtkSharp/blob/a3d80b67c8e91104a767ada1db395a04e8dc1aac/APIRequest.cs#L16) file, going to line 16, and then replacing "your key" in `key.setValue("your key");` to with API key.
+To use your own API key from [World Weather Online](https://www.worldweatheronline.com/), you can use it by locating the [APIRequest.cs](https://github.com/tayinde/WorldTimeGtkSharp/blob/master/requests/APIRequest.cs#L15) file, going to line 16, and then replacing "your key" in `string apiKey = "put your key here";` with your API key.
